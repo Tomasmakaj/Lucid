@@ -14,7 +14,8 @@ const Footer = () => {
             </div>
             <div>
                 <div className='col'>
-                    <p>Copyright © 2022 Lucid Contracting Corp. | All Rights Reserved | 291 Agor Ln, Mahopac NY 10541 | </p>
+                    <p>Copyright © 2022 Lucid Contracting Corp. | All Rights Reserved |</p>
+                    <p>291 Agor Ln, Mahopac NY 10541</p>
                     <p>914-483-6097</p>
                 </div>
             </div>
