@@ -1,7 +1,7 @@
 #reach {
     position: relative;
     justify-items: center;
-    left: 43%;
+    left: 45%;
     transform: translate(-30%);
     padding-top: 5vh;
     padding-right: 10rem;
@@ -9,12 +9,9 @@
   
   .products {
     position: relative;
-    left: 12vh;
+    left: 13vh;
     padding-bottom: 1rem;
-    /* left: 6rem;
-    transform: translate(-35%);
-    padding-bottom: 5vh;
-    justify-content: center; */
+    left: 6rem;
   }
   
   
