@@ -1,15 +1,15 @@
 import React from 'react'
-import {BsInstagram} from 'react-icons/bs'
+import { BsInstagram } from 'react-icons/bs'
 import './Footer.css'
 
 const Footer = () => {
 
     return (
 
-        <div id='footer'className='footer'>
+        <div id='footer' className='footer'>
             <div className='col created-by'>
                 <div className='col'>
-                    <a href="https://www.instagram.com/lucidcontracting/" target="_blank"><BsInstagram className='icon' /></a>
+                    <a href="https://www.instagram.com/lucidcontracting/" rel='noreferrer'><BsInstagram className='icon' /></a>
                 </div>
             </div>
             <div>
