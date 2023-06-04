@@ -28,14 +28,14 @@ const Contact = () => {
   return (
     <section id='reach'>
       <div className="dm">
-        <div className="mails">
+        {/* <div className="mails">
           <article className="mail">
             <MdOutlineEmail className='contact__option-icon' />
             <h4>Contact Us</h4>
             <small>info@lucidcontracting.design</small>
             <a href="Email" target="_blank">Send a message</a>
-          </article>
-        </div>
+          </article> */}
+        {/* </div> */}
         <form ref={form} onSubmit={sendEmail} className="artform">
           <input type="text" name='subject' placeholder='Subject' required />
           <input type="text" name='name' placeholder='Your Full Name' required />
@@ -44,7 +44,7 @@ const Contact = () => {
           <button type='submit' className='btn btn-primary'>Submit</button>
         </form>
       </div>
-    </section>
+    </section >
 
   )
 }
