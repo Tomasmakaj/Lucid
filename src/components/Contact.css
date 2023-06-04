@@ -65,9 +65,12 @@
 
 form {
   display: flex;
-  flex-direction: column;
-  gap: 1.0rem;
+  gap: 1rem;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
 }
 
 input,
