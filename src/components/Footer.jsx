@@ -1,5 +1,6 @@
 import React from 'react'
-import { BsInstagram, BsLinkedin, BsMailbox2 } from 'react-icons/bs'
+import { BsInstagram, BsLinkedin } from 'react-icons/bs'
+import { AiOutlineMail } from 'react-icons/ai'
 import './Footer.css'
 
 const Footer = () => {
@@ -11,7 +12,7 @@ const Footer = () => {
                 <div className='col'>
                     <a href="https://www.linkedin.com/company/lucid-contracting-corp/" rel='noreferrer'><BsLinkedin className='icon' /></a>
                     <a href="https://www.instagram.com/lucidcontracting/" rel='noreferrer'><BsInstagram className='icon' /></a>
-                    <a href="mailto: Tomas@LucidContractingCorp.com"><BsMailbox2 className='icon' /></a>
+                    <a href="mailto: Tomas@LucidContractingCorp.com"><AiOutlineMail className='icon' /></a>
                 </div>
             </div>
             <div>
