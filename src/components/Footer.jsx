@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsInstagram } from 'react-icons/bs'
+import { BsInstagram, BsLinkedin, BsMailbox2 } from 'react-icons/bs'
 import './Footer.css'
 
 const Footer = () => {
@@ -9,7 +9,9 @@ const Footer = () => {
         <div id='footer' className='footer'>
             <div className='col created-by'>
                 <div className='col'>
+                    <a href="https://www.linkedin.com/company/lucid-contracting-corp/" rel='noreferrer'><BsLinkedin className='icon' /></a>
                     <a href="https://www.instagram.com/lucidcontracting/" rel='noreferrer'><BsInstagram className='icon' /></a>
+                    <a href="mailto: Tomas@LucidContractingCorp.com"><BsMailbox2 className='icon' /></a>
                 </div>
             </div>
             <div>

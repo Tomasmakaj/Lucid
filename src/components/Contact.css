@@ -1,16 +1,16 @@
-#reach {
+/* #reach {
   position: relative;
-  justify-items: center;
-  /* transform: translate(-30%); */
-  padding-top: 5vh;
+  justify-items: center; */
+/* transform: translate(-30%); */
+/* padding-top: 5vh;
 }
 
-/* .products {
+.products {
   position: relative;
   left: 13vh;
   padding-bottom: 1rem;
   left: 6rem;
-} */
+}
 
 
 .dm {
@@ -106,4 +106,4 @@ element.style {
   .dm {
     width: var(--container-width-sm);
   }
-}
+} */
