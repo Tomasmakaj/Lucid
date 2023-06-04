@@ -18,7 +18,7 @@
 .dm {
   flex: auto;
   justify-content: stretch;
-  padding-left: 3rem;
+  padding-left: 2.5rem;
   display: grid;
   grid-template-columns: 50%;
   gap: 50%;
