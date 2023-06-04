@@ -1,10 +1,8 @@
 #reach {
   position: relative;
   justify-items: center;
-  left: 55%;
-  transform: translate(-30%);
+  /* transform: translate(-30%); */
   padding-top: 5vh;
-  padding-right: 10rem;
 }
 
 /* .products {
@@ -18,10 +16,10 @@
 .dm {
   flex: auto;
   justify-content: stretch;
-  padding-right: 2.5rem;
+  padding-left: 0%;
   display: grid;
-  grid-template-columns: 50%;
-  gap: 50%;
+  grid-template-columns: 55% 55%;
+  gap: 20%;
 }
 
 .h5 {
@@ -74,7 +72,7 @@ form {
 
 input,
 textarea {
-  width: 100%;
+  width: 35%;
   padding: 0.2rem;
   border-radius: 0.8rem;
   background: white;
@@ -101,7 +99,7 @@ element.style {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .dm {
     width: var(--container-width-sm);
   }
