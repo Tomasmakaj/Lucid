@@ -1,26 +1,27 @@
 #reach {
   position: relative;
   justify-items: center;
-  left: 70%;
+  left: 55%;
   transform: translate(-30%);
   padding-top: 5vh;
   padding-right: 10rem;
 }
 
-.products {
+/* .products {
   position: relative;
   left: 13vh;
   padding-bottom: 1rem;
   left: 6rem;
-}
+} */
 
 
 .dm {
   flex: auto;
-  width: 50%;
+  justify-content: stretch;
+  padding-left: 3rem;
   display: grid;
-  grid-template-columns: 45% 80%;
-  gap: 55%;
+  grid-template-columns: 50%;
+  gap: 50%;
 }
 
 .h5 {
