@@ -10,6 +10,7 @@ import bathroom1 from '../assets/bathroom1.avif'
 import bathroom2 from '../assets/bathroom2.avif'
 import bathroom3 from '../assets/bathroom3.avif'
 import renovation1 from '../assets/renovation1.jpeg'
+import john99 from '../assets/john99.jpg'
 
 
 
@@ -25,6 +26,13 @@ const Hero = () => {
                 alt="First slide"
               />
             </Carousel.Item> */}
+        <Carousel.Item interval={2000}>
+          <img
+            className="d-block w-100 img-item"
+            src={john99}
+            alt="First slide"
+          />
+        </Carousel.Item>
         <Carousel.Item interval={2000}>
           <img
             className="d-block w-100 img-item"
