@@ -9,8 +9,9 @@ import kitchen4 from '../assets/kitchen4.avif'
 import bathroom1 from '../assets/bathroom1.avif'
 import bathroom2 from '../assets/bathroom2.avif'
 import bathroom3 from '../assets/bathroom3.avif'
-import renovation1 from '../assets/renovation1.jpeg'
 import john99 from '../assets/john99.jpg'
+import boys from '../assets/boys.jpeg'
+import girls from '../assets/girls.jpeg'
 
 
 
@@ -29,8 +30,22 @@ const Hero = () => {
         <Carousel.Item interval={2000}>
           <img
             className="d-block w-100 img-item"
-            src={john99}
+            src={boys}
             alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item interval={2000}>
+          <img
+            className="d-block w-100 img-item"
+            src={girls}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item interval={2000}>
+          <img
+            className="d-block w-100"
+            src={john99}
+            alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item interval={2000}>
@@ -42,22 +57,8 @@ const Hero = () => {
         </Carousel.Item>
         <Carousel.Item interval={2000}>
           <img
-            className="d-block w-100"
-            src={kitchen2}
-            alt="Second slide"
-          />
-        </Carousel.Item>
-        {/* <Carousel.Item interval={2000}>
-              <img
-                className="d-block w-100"
-                src={kitchen3}
-                alt="Third slide"
-              />
-            </Carousel.Item> */}
-        <Carousel.Item interval={2000}>
-          <img
             className="d-block w-100 img-item"
-            src={kitchen4}
+            src={kitchen2}
             alt="First slide"
           />
         </Carousel.Item>
@@ -85,7 +86,7 @@ const Hero = () => {
         <Carousel.Item interval={2000}>
           <img
             className="d-block w-100 img-item"
-            src={renovation1}
+            src={kitchen4}
             alt="First slide"
           />
         </Carousel.Item>
