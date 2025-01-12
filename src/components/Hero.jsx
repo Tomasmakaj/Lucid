@@ -12,6 +12,10 @@ import bathroom3 from '../assets/bathroom3.avif'
 import john99 from '../assets/john99.jpg'
 import boys from '../assets/boys.jpeg'
 import girls from '../assets/girls.jpeg'
+import Riverside from '../assets/Riverside.JPG'
+import green from '../assets/green.JPG'
+import trippkitchen from '../assets/trippkitchen.jpeg'
+import trippbathroom from '../assets/trippbathroom.jpeg'
 
 
 
@@ -30,6 +34,34 @@ const Hero = () => {
         <Carousel.Item interval={2000}>
           <img
             className="d-block w-100 img-item"
+            src={Riverside}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item interval={2000}>
+          <img
+            className="d-block w-100 img-item"
+            src={green}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item interval={2000}>
+          <img
+            className="d-block w-100"
+            src={john99}
+            alt="Second slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item interval={2000}>
+          <img
+            className="d-block w-100 img-item"
+            src={trippkitchen}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item interval={2000}>
+          <img
+            className="d-block w-100 img-item"
             src={boys}
             alt="First slide"
           />
@@ -43,9 +75,9 @@ const Hero = () => {
         </Carousel.Item>
         <Carousel.Item interval={2000}>
           <img
-            className="d-block w-100"
-            src={john99}
-            alt="Second slide"
+            className="d-block w-100 img-item"
+            src={trippbathroom}
+            alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item interval={2000}>
@@ -62,6 +94,7 @@ const Hero = () => {
             alt="First slide"
           />
         </Carousel.Item>
+
         <Carousel.Item interval={2000}>
           <img
             className="d-block w-100 img-item"
