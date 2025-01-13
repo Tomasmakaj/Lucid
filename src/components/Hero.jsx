@@ -15,7 +15,7 @@ import girls from '../assets/girls.jpeg'
 import Riverside from '../assets/Riverside.JPG'
 import green from '../assets/green.JPG'
 import trippkitchen from '../assets/trippkitchen.jpeg'
-import trippbathroom from '../assets/trippbathroom.jpeg'
+import trippbath from '../assets/trippbath.JPG'
 
 
 
@@ -76,7 +76,7 @@ const Hero = () => {
         <Carousel.Item interval={2000}>
           <img
             className="d-block w-100 img-item"
-            src={trippbathroom}
+            src={trippbath}
             alt="First slide"
           />
         </Carousel.Item>
